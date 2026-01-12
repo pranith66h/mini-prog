@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHEONIX-fire</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63 #242423);
+            color: #7a1c58;
+            font-family: 'Segoe UI','Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 110vh;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 40px 0 rgba(255, 69, 0 ,0.4);
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1 {
+            font-size: 4em;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #ff4500;
+            text-shadow: 0 0 20px #ff8c00, 0 0 40px #ff4500;
+            margin-bottom:30px;
+            letter-spacing: 1.5px;
+            animation:glow 2s infinite alternate;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.1;
+            margin-bottom: 2.5px;
+
+            color: #3d0101;
+            text-shadow: 0 0 25px #ff4500;
+
+            
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+            font-style: italic;
+        }  
+        .motivation {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ff8c00;
+            text-shadow: 0 0 20px #ff6347;
+        }
+        /*subtle fade-in animation*/
+        @keyframes fadeIn {
+            from { opacity: 0; transform:translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes glow{
+            from {
+                text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500;
+            }
+            to {
+                text-shadow: 0 0 20px #ff8c00, 0 0 30px #ff8c00, 0 0 40px #ff8c00, 0 0 50px #ff8c00;
+            }
+        }
+            /*responsive (looks good on all devices)*/
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2.3em;                
+            }  
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>PHEONIX-fire</h1>
+    <p>Welcome to the  PHEONIX-fire page!</p>
+    <p>We all knew pheonix is  a fire bird which will rise from the ashes.</p>
+    <p>Similarly, we believe in rising stronger from challenges.</p>
+    <p>Join us on this journey of resilience and strength!</p>
+    <p> Me too like fire PHEONIX rises from my failures</p>
+    <p>Always remember going on straight path or shortcut isnt only 2 ways for Sucess</p>
+    <p>There are many ways to reach your destination.Like you can  continue from right there where you got side tracked</p>
+    <p> Like if you got side tracked due to Movie learn any point from movie and continue</p>
+    <p>Like if you got side tracked due to Friends learn any point from them and continue</p>
+    <p>If your  journey interupted due to bar try to use booze also to booze your thoughts and continue</p>
+    <p>Never give up..Keep trying..Keep rising..Keep shining..</p>
+</body>
+</html>
